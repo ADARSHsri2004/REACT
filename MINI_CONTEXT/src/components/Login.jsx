@@ -8,11 +8,8 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         setuser({ username, pass })  //sending data
-
     }
     return (
-       
-
             <div className='h-[30vh] w-[30vw] bg-green-400 '>
                 <h2>Login</h2>
                 <input className='p-4 m-4 bg-gray-100' type="text" placeholder='username' value={username} onChange={(e) => setusername(e.target.value)} />
